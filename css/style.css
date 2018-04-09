@@ -1,0 +1,271 @@
+html{
+  background-color: #fff;
+  font-size: 16px;
+  height: 100%;
+}
+
+body, .navbar-default, .navbar-header, .jumbotron {
+  background-color: #fff;
+  font-family: "Oxygen", sans-serif;
+}
+
+/* HEADER */
+
+.navbar{
+  border: 0;
+  padding-bottom: 1vh;
+}
+
+.navbar-collapse{
+  border: 0;
+  padding-bottom: 1vh;
+}
+
+.navbar-default .navbar-nav>li>a{
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  font-size: 0.9375rem;
+  color: #000;
+  padding: 2.8rem 0 0.2rem;
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
+  border-bottom: 5px solid #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+  border-bottom: 5px solid #fff36e;
+}
+
+.navbar-toggle.collapsed{
+  margin-top: 2.2rem;
+}
+
+/* IMG-BACK */
+
+.img-back{
+  background-image: url(../img/header.png);
+  background-size: cover;
+  background-position: bottom;
+  padding: 12rem 0;
+}
+
+.box .inner-box{
+  font-family: "Oxygen", sans-serif;
+  width: 30rem;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.13);
+}
+
+.box .inner-box h1{
+  font-family: "Oxygen", sans-serif;
+  color: #000;
+  line-height: 1.2;
+  padding: 0;
+  margin: 0;
+  font-size: 2.87em;
+  font-weight: bold;
+  text-align: left;
+}
+
+.box .inner-box h2{
+  color: #000;
+  font-size: 1.43em;
+  font-weight: bold;
+  text-align: left;
+  margin: 0.1rem 0 2rem;
+}
+
+/* CONTENT-MIDDLE */
+
+.content-middle{
+  padding-bottom: 4rem;
+}
+
+.content-middle h1{
+  font-family: "Oxygen", sans-serif;
+  font-size: 2.87rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+.content-middle .content{
+  margin-bottom: 1.25em;
+}
+
+.content-middle .content>p{
+  font-family: "Oxygen", sans-serif;
+  font-size: 1rem;
+  display:inline-block;
+  width: 60%;
+}
+
+.content-middle .items{
+  padding-bottom: 2rem;
+}
+
+.content-middle .items h3{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.content-middle .items img{
+  margin-top: 1.25rem;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.btn{
+  color: #000;
+  background-color: rgb(255, 237, 33);
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  border: 0;
+  border-radius: 0;
+  padding: 1.5rem 4rem;
+}
+
+.btn-default:hover {
+  color: #000;
+  background-color: #fff36e;
+  border-color: none;
+}
+
+.btn-default:focus, .btn-default:active{
+  color: #000;
+  background-color: #fff36e;
+  border-color: none;
+}
+
+.btn-content{
+  text-align: center;
+}
+
+.jumbotron{
+  margin: 0;
+}
+
+.prizes{
+  background-image: url(../img/prizes.png);
+  background-position: center;
+  background-size: cover;
+  height: 21rem;
+}
+
+.stats{
+  padding: 4.5em 0;
+}
+
+.stats .thumbnail{
+  background-color: rgb(255, 237, 33);
+  text-align: center;
+  border: 0;
+  border-radius: 0;
+  padding: 0.8rem 0;
+  margin: 0;
+}
+
+.stats .thumbnail a{
+  text-decoration: none;
+  color: #000;
+}
+
+.stats .thumbnail h3{
+  font-size: 2.87rem;
+  font-weight: bold;
+}
+
+.stats .thumbnail p{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+footer{
+  font-family: "Oxygen", sans-serif;
+  padding: 3.5rem;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+footer p.copy{
+  font-size: 0.87em;
+  margin-bottom: 3.5em;
+}
+
+footer p.terms{
+  color: #909090;
+  font-size: 0.87em;
+}
+
+.footer-nav {
+  height: 4rem;
+  padding: 0;
+  background-color: #000;
+
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.footer-nav .element {
+  width: 20%;
+}
+
+.footer-nav .element > a{
+  color: rgb(255, 237, 33);
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.footer-nav .element > a img{
+  margin-top: -1.5rem;
+}
+
+.whole-width{
+  width: 100%;
+}
+
+/*/---------- processing -----------/*/
+
+.processing .img-back{
+  background-image: url(../img/header-pro.png);
+  padding: 3rem 0;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.process{
+  color: #000;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  border: 3px solid;
+  border-image: url(../img/rectangle-3.png) 3 round;
+  margin: 3rem 0;
+  background-repeat: no-repeat;
+  height: 5rem;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.process1{
+  background-image: url(../img/rectangle-3.png);
+  background-size: 33% 100% ;
+}
+
+.process2{
+  background-image: url(../img/rectangle-3.png);
+  background-size: 66% 100% ;
+}
+
+.process3{
+  background-image: url(../img/rectangle-3.png);
+}
+
+.process .position{
+  width: 33%;
+  text-align: center;
+}
